@@ -1,0 +1,8 @@
+#!/bin/bash
+# gets rid of openjdk and installs proper java
+
+
+sudo apt-get purge openjdk*
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
